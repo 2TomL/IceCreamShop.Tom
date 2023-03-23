@@ -15,12 +15,9 @@ public class IceCreamAppV2 {
         PriceList pricelist = new PriceList(1, 2, 3);
         IceCreamCar iceCreamCar = new IceCreamCar(pricelist, new Stock(83,30,50,60));
 
-        System.out.println("Welcome to the Ice Cream Car! What would you like to order?");
-        System.out.println("1. Cone \n2. Ice Rocket \n3. Magnum");
-
         boolean again = true;
         while(again){
-            System.out.println("Welcome to the Ice Cream Salon! What would you like to order?");
+            System.out.println("Welcome to the Ice Cream Car! What would you like to order?");
             System.out.println("1. Cone \n2. Ice Rocket \n3. Magnum");
             System.out.println("or type 4 to exit");
 
