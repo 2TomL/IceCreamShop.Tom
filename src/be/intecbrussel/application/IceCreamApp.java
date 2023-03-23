@@ -19,22 +19,13 @@ public class IceCreamApp {
         IceCreamSalon iceCreamSalon = new IceCreamSalon(pricelist);
 
         System.out.println("Welcome to the Ice Cream Salon! What would you like to order?");
-        System.out.println("1. Cone");
-        System.out.println("2. Ice Rocket");
-        System.out.println("3. Magnum");
-
+        System.out.println("1. Cone \n2. Ice Rocket \n3. Magnum");
 
         int choice = scanner.nextInt();
         switch (choice) {
             case 1:
                 System.out.println("What flavors would you like in your cone?");
-                System.out.println("1. Banana");
-                System.out.println("2. Chocolate");
-                System.out.println("3. Vanilla");
-                System.out.println("4. Lemon");
-                System.out.println("5. Straciatella");
-                System.out.println("6. Mokka");
-                System.out.println("7. Pistachiooo");
+                System.out.println("1. Banana \n2. Chocolate \n3. Vanilla \n4. Lemon \n5. Straciatella \n6. Mokka \n7. Pistachiooo");
 
                 int flavor1 = scanner.nextInt();
                 System.out.println("2nd Flavor:");
@@ -53,16 +44,12 @@ public class IceCreamApp {
                 break;
             case 3:
                 System.out.println("What type of Magnum would you like?");
-                System.out.println("1. Classic MILKCHOCOLATE");
-                System.out.println("2. Classic WHITECHOCOLATE");
-                System.out.println("3. Classic BLACKCHOCOLATE");
-                System.out.println("4. Alpeanuts");
-                System.out.println("5. Romantic");
+                System.out.println("1. Classic MILKCHOCOLATE \n2. Classic WHITECHOCOLATE \n3. Classic BLACKCHOCOLATE \n4. Alpeanuts \n5. Romantic");
 
                 int magnumType = scanner.nextInt();
                 Magnum.MagnumType [] types = {Magnum.MagnumType.values()[magnumType - 1]};
-                System.out.println("You have ordered a Magnum " + types);
-                System.out.println("The price of the Magnum " + types + " is " + types );
+                System.out.println("You have ordered a Magnum " + types.toString());
+                System.out.println("The price of the Magnum " + types.toString() + " is " + types );
                 break;
             default:
                 System.out.println("Invalid choice!");

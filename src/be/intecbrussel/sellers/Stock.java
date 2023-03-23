@@ -1,10 +1,17 @@
 package be.intecbrussel.sellers;
 
 public class Stock {
-    public int iceRockets = 80;
-    public int cones = 100;
-    public int balls = 500;
-    public int magni = 150;
+    public int iceRockets;
+    public int cones;
+    public int balls;
+    public int magni;
+
+    public Stock(int iceRockets, int cones, int balls, int magni) {
+        this.iceRockets = iceRockets;
+        this.cones = cones;
+        this.balls = balls;
+        this.magni = magni;
+    }
 
     public int getIceRockets() {
         return iceRockets;

@@ -32,4 +32,5 @@ public class Magnum implements Eatable{
         ROMANTICSTRAWBERRIES
 
     }
+
 }

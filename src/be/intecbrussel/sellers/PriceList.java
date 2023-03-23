@@ -38,7 +38,7 @@ public class PriceList {
             case ROMANTICSTRAWBERRIES:
                 return magnumStandardPrice * 1.75;
             default:
-                throw new IllegalArgumentException("Invalid Magnum type ");
+                return magnumStandardPrice;
         }
     }
 

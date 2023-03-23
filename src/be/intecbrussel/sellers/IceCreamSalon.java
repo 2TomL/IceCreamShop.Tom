@@ -26,7 +26,6 @@ public class IceCreamSalon implements IceCreamSeller{
         double conePrice = priceList.getBallPrice() * flavors.length;
 
         totalProfit += (conePrice * 0.25);
-        System.out.println("Ordered cone with flavors: " + Arrays.toString(flavors));
 
         return cone;
     }
@@ -37,7 +36,6 @@ public class IceCreamSalon implements IceCreamSeller{
         IceRocket iceRocket = new IceRocket();
 
         totalProfit += (priceList.getRocketPrice()*0.20);
-        System.out.println("Ordered Ice Rocket ");
 
         return iceRocket;
     }
@@ -48,7 +46,6 @@ public class IceCreamSalon implements IceCreamSeller{
         Magnum magnum = new Magnum(magnumType);
 
         totalProfit += (priceList.getMagnumPrice(magnum.getType()) * 0.01);
-        System.out.println("Ordered A Super Magnum ");
 
         return magnum;
     }
