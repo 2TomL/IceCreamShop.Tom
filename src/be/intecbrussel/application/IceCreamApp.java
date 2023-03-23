@@ -42,20 +42,20 @@ public class IceCreamApp {
                 System.out.println("You have ordered an Ice Rocket");
                 iceRocket.eat();
                 break;
-            case 3:
+             case 3:
                 System.out.println("What type of Magnum would you like?");
                 System.out.println("1. Classic MILKCHOCOLATE \n2. Classic WHITECHOCOLATE \n3. Classic BLACKCHOCOLATE \n4. Alpeanuts \n5. Romantic");
 
-                int magnumType = scanner.nextInt();
+            int magnumType = scanner.nextInt();
                 Magnum.MagnumType [] types = {Magnum.MagnumType.values()[magnumType - 1]};
                 System.out.println("You have ordered a Magnum " + types.toString());
                 System.out.println("The price of the Magnum " + types.toString() + " is " + types );
-                break;
+                    break;
             default:
                 System.out.println("Invalid choice!");
-                break;
+                    break;
         }
 
         System.out.println("Total profit for the Ice Cream Salon is: " + iceCreamSalon.getProfit());
-    }
+        }
 }
