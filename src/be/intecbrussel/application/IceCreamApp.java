@@ -50,9 +50,9 @@ public class IceCreamApp {
                     System.out.println("1. Classic MILKCHOCOLATE \n2. Classic WHITECHOCOLATE \n3. Classic BLACKCHOCOLATE \n4. Alpeanuts \n5. Romantic");
 
                     int magnumType = scanner.nextInt();
-                    Magnum.MagnumType [] types = {Magnum.MagnumType.values()[magnumType - 1]};
-                    System.out.println("You have ordered a Magnum " + types.toString());
-                    System.out.println("The price of the Magnum " + types.toString() + " is " + types );
+                    Magnum.MagnumType type = Magnum.MagnumType.values()[magnumType - 1];
+                    iceCreamSalon.orderMagnum(type);
+                    System.out.println("You have ordered a Magnum " + type.toString());
                     break;
                 case 4:
                     again = false;
