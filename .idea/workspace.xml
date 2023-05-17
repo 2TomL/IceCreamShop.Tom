@@ -5,7 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a69c54a6-820c-4f36-b6ad-0490e763fb65" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamAppV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamAppV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/eatables/ConeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/eatables/IceRocketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/eatables/MagnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/IceCreamCarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/IceCreamSalonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/PriceListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/sellers/StockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IceCreamShop.Tom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IceCreamShop.Tom.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/application/IceCreamApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamAppV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/application/IceCreamAppV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Cone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/eatables/Cone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Eatable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/eatables/Eatable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/eatables/IceRocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/eatables/IceRocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Magnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/eatables/Magnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/sellers/IceCreamCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamSalon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/sellers/IceCreamSalon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/sellers/IceCreamSeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/sellers/IceCreamSeller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/sellers/PriceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/sellers/PriceList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/sellers/Profitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/sellers/Profitable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/sellers/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/sellers/Stock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +51,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -39,10 +73,23 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lamer/IdeaProjects/ErvaringsweekBlackJack1&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="be.intecbrussel.eatables" />
+      <recent name="be.intecbrussel.sellers" />
+      <recent name="be.intecbrussel.application" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MagnumTest.testPrintEating">
     <configuration name="IceCreamApp" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.intecbrussel.application.IceCreamApp" />
       <module name="IceCreamShop.Tom" />
@@ -56,6 +103,95 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConeTest.shouldReturnEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShop.Tom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.eatables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.eatables" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.eatables.ConeTest" />
+      <option name="METHOD_NAME" value="shouldReturnEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IceRocketTest.shouldPrintEatingRocket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShop.Tom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.eatables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.eatables" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.eatables.IceRocketTest" />
+      <option name="METHOD_NAME" value="shouldPrintEatingRocket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IceRocketTest.shouldReturnEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShop.Tom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.eatables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.eatables" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.eatables.IceRocketTest" />
+      <option name="METHOD_NAME" value="shouldReturnEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MagnumTest.shouldReturnEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShop.Tom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.eatables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.eatables" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.eatables.MagnumTest" />
+      <option name="METHOD_NAME" value="shouldReturnEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MagnumTest.testPrintEating" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShop.Tom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.eatables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.eatables" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.eatables.MagnumTest" />
+      <option name="METHOD_NAME" value="testPrintEating" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MagnumTest.testPrintEating" />
+        <item itemvalue="JUnit.MagnumTest.shouldReturnEquals" />
+        <item itemvalue="JUnit.IceRocketTest.shouldReturnEquals" />
+        <item itemvalue="JUnit.IceRocketTest.shouldPrintEatingRocket" />
+        <item itemvalue="JUnit.ConeTest.shouldReturnEquals" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
